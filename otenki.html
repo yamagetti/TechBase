@@ -1,0 +1,25 @@
+<!DOCTYPE html> 
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>札幌の天気</title>
+  <style>
+    #image {
+    height: 300px;
+    }
+  </style>
+</head>
+<body>
+  <h1><span id="title"></span></h1>
+  <button id="addBtn">札幌市の天気の詳細</button>
+  <!-- APIから取得した天気に関するデータを表示する -->
+  <div>日付：<span id="date"></div><!--spanタグもimgタグもidを使える！-->
+  <div>気象台：<span id="place"></div>
+  <div>予報：<span id="text"></div>    
+  <!-- <div>気象台：<span id="place"></div>
+  <div>気象台：<span id="place"></div>    
+  <div>気象台：<span id="place"></div> -->
+
+  <script src="otenki.js"></script>
+</body>
+</html>
